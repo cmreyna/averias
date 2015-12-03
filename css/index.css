@@ -1,0 +1,702 @@
+text
+{
+    font-size: 2vw !important;
+}
+
+@font-face{
+    font-family:"Trade";
+    src:url("../res/font/TradeGothicLTStd-BdCn20.otf");
+}
+
+.ui-body-c,.ui-overlay-c,.ui-body-c
+{
+    background-color: linear-gradient( #ffffff,#FFFFFF) !important;
+    border: none !important;
+}
+
+/********************************** Login ****************************/
+#login{
+  background: #296fb7;
+  color: white;
+  font-weight: 300;
+  overflow: scroll;
+}
+
+#login ::-webkit-input-placeholder {
+  /* WebKit browsers */
+
+  color: white;
+  font-weight: 300;
+}
+
+#login :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+
+#login ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+
+#login :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: white;
+  font-weight: 300;
+}
+
+#login-button, #txt-email, #txt-pass
+{
+    font-family: 'Trade';
+
+}
+
+.wrapper {
+
+  background: -webkit-linear-gradient(top left, #296fb7 0%, #296fb7 100%);
+  background: linear-gradient(to bottom right, #296fb7 0%, #296fb7 100%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: -250px;
+  overflow: hidden;
+}
+.wrapper.form-success .container h1 {
+  -webkit-transform: translateY(85px);
+      -ms-transform: translateY(85px);
+          transform: translateY(85px);
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 0;
+  height: 100%;
+  text-align: center;
+}
+.container h1 {
+  font-size: 40px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-put;
+          transition-timing-function: ease-in-put;
+  font-weight: 200;
+  margin-top: -50px;
+}
+#form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+#form input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 220px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+}
+#form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#form input:focus {
+  background-color: white;
+  width: 260px;
+  color: #296fb7;
+}
+
+#form input:-webkit-autofill {
+    color: #fff !important;
+}
+
+#form input:visited
+{
+    background-color: white;
+}
+
+#form button {
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #296fb7;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+#form button a
+{
+    text-decoration: none;
+}
+#form button:hover {
+  background-color: #e1e4e6;
+}
+
+#txt-cuenta
+{
+    font-family: 'Trade';
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+#Fechas, #mensual, #btn-redibujar,#btn233,#btn234
+{
+    background: #296fb7;
+    border: none;
+    color: #FFF;
+    width: 140px;
+    height: 40px;
+    font-family: 'Trade';
+    text-transform: uppercase;
+    font-size: 18px !important;
+}
+
+#btn-redibujar
+{
+    margin-left: 20px !important;
+}
+
+#mensual
+{
+    margin-right: 10px; 
+}
+
+#sub-botones
+{
+    margin-top: 20px;
+}
+
+#tabla7
+{
+    margin-top: 20px;
+}
+
+#separador-detalles
+{
+    border: none;
+    background: #296fb7;
+    height: 1px;
+}
+
+.btn-detalles
+{
+    border: none;
+    background: #296fb7;
+    height: 40px;
+    width: 140px;
+    color: #FFF;
+    font-family: 'Trade' !important;
+    text-transform: uppercase;
+}
+
+#tabla9
+{
+    margin-top: 10px;
+}
+
+/************************************* PÁGINA DE INICIO ****************************/
+#title-header img
+{
+    vertical-align: bottom;
+}
+
+#charts1
+{
+    margin-top: 10px;
+}
+
+#btn-cargar
+{
+    background: #8BC34A;
+    color: #FFF;
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-family: 'Trade';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    box-shadow: 5px 3px 5px #CCC;
+    cursor: pointer;
+}
+
+#btn-cargar img
+{
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
+#btn-grafico
+{
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    font-family: 'Trade';
+    text-transform: uppercase;
+    box-shadow: 3px 4px 3px #DDD;
+    background: #009688;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#hrn-inicio
+{
+    border: none !important;
+    background: #296fb7 !important;
+    height: 2px;
+}
+
+.btn-sub
+{
+    text-decoration: none !important;
+    padding: 10px;
+    background: #00695C;
+    /*border-radius: 5px;*/
+    font-family: "Trade";
+    color: #FFF;
+    width: 280px !important;
+    border: none;
+    font-size: 18px !important;
+    text-shadow: none !important;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn-sub:hover
+{
+    background: #4caf50;
+}
+
+.btn-secun
+{
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+
+
+#btn-grafico img
+{
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.foot
+{
+    font-family: "Trade";
+    font-size: 18px !important;
+    text-shadow: none;
+}
+
+.text-head
+{
+    text-shadow: none;
+    font-family: 'Trade';
+    font-size: 25px !important;
+    text-transform: uppercase;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    letter-spacing: 2px;
+}
+
+#text-head1
+{
+    letter-spacing: 0px !important;
+}
+
+#btns
+{
+    background: #009688;
+    width: 150px;
+    border: none;
+    height: 45px;
+    margin-top: 10px;
+}
+
+
+#detalles
+{
+    padding: 10px 5px;
+    font-family: 'Trade';
+    font-size: 20px !important;
+    text-shadow: none !important;
+    color: #FFF;
+}
+
+
+
+#img-detalles
+{
+    vertical-align: bottom;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#tipo-moneda
+{
+    margin-top: 15px;
+}
+
+#moneda
+{
+    font-style: normal;
+    font-family: 'Trade';
+    font-size: 20px;
+}
+
+/************************************* Pagina de Facturación ***********************/
+#facturacion,#inicio,#cobranza
+{
+    background: #FFF !important;
+    overflow: scroll;
+}
+
+#myselect,#myselect2,#myselect1,#myselect4,#myselect5,#myselect8
+{
+    margin-bottom: 10px;
+    width: 160px;
+    height: 30px;
+    border: 1px solid #296fb7;
+    font-family: 'Trade';
+    font-size: 15px;
+    background: #296FB7;
+    opacity: 0.9;
+    color: #FFF;
+    text-shadow: none
+}
+
+.txt-slect
+{
+    margin-right: 10px;
+    font-style: normal;
+    font-family: 'Trade';
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+
+
+#ver-grafico
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background: #5D83AA !important;
+    padding: 10px;
+    border: none;
+    color: #FFF !important;
+    font-family: "Trade" !important;
+    text-transform: uppercase !important;
+    font-size: 17px !important;
+    text-shadow: none !important;
+}
+
+#ver-grafico img
+{
+    vertical-align: text-bottom;
+    margin-right:  8px;
+}
+
+
+#ver-grafico:hover
+{
+    background: #2A4D71;
+}
+
+/* ------ tabla ------- */
+
+#table1
+{
+    margin-top: 20px;
+}
+
+#table2
+{
+        margin-top: 20px;
+}
+
+#hr-inicio
+{
+    background:  #296fb7;
+    height:  1px;
+    border: none;
+}
+
+.google-visualization-table-tr-head
+{
+    background-image: linear-gradient( #3366cc,#3366cc) !important;
+    font-family: 'Trade';
+    text-shadow: none;
+    font-size: 14px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.google-visualization-table-tr-even
+{
+    background: #167F92 !important;
+    color: #FFF;
+    font-family: 'Trade';
+    font-size: 14px;
+    text-shadow: none;
+    text-align: left;
+}
+
+.img-emp
+{
+    margin-right: 5px;    
+}
+
+.google-visualization-table-tr-odd
+{
+    background: #eaeaea !important;
+    text-shadow: none;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Trade';
+}
+
+.google-visualization-table-th gradient unsorted
+{
+    background: #3366cc !important;
+    color: #FFF;
+}
+
+
+.google-visualization-table-td google-visualization-table-td-number
+{
+    font-size: 16px;
+    text-align: right;
+}
+
+.google-visualization-table-table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.google-visualization-table-table tr td:nth-child(3) {
+    text-align: right;
+}
+ .google-visualization-table-table tr td:nth-child(4) {
+    text-align: right;
+}
+
+.google-visualization-table-table tr td:nth-child(5) {
+    text-align: right;
+}
+
+/******************************  Cobranza *******************************/
+#btn-doc,#btn-emp
+{
+    margin-right: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Trade';
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 4px 5px 4px #CCC;
+    cursor: pointer;    
+}
+
+#btn-doc
+{
+    background: #F44336;
+    color: #FFF;
+}
+
+#btn-doc:hover
+{
+    background: #E0AAA6;
+}
+
+#btn-doc img, #btn-emp img
+{
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+#btn-emp
+{
+    background: #607D8B;
+    color: #FFF;
+}
+
+#btn-emp:hover
+{
+    background: #BBD7E4;
+}
+
+#table-p,#tabla342
+{
+    width: 100%;
+    background: #4285f4;
+    text-shadow: none;
+    color: white;
+    font-family: 'Trade';
+}
+
+
+
+#table3
+{
+    margin-top: 20px;
+}
+
+#fecha-cob,#monto-cob
+{
+    font-family: 'Trade';
+    border-right: solid #eee;
+}
+
+#fecha-cob
+{
+    width: 34%;
+}
+
+#monto-cob
+{
+    width: 32%;
+}
+
+#por-cob
+{
+    font-family: 'Trade';
+}
+
+#fila-2,#fila-4,#fila-6
+{
+    background: #FFF;
+    border: 1px #FFF solid;
+    border-left: 3px #FFF solid;
+    margin: 0;
+    padding-left: 2px;
+    color: #000;
+}
+
+#btn-grafica
+{
+    background: #4285f4;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+#btn-grafica1
+{
+    background: #db4437;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+#btn-grafica2
+{
+    background: #4285f4;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+#btn-grafica3
+{
+     background: #db4437;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+
+#btn-grafica4
+{
+     background: #f4b400;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+#btn-grafica5
+{
+     background: #009688;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+#btn-grafica6
+{
+     background: #CDDC39;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+#btn-grafica7
+{
+     background: #f5821f;
+    height: 15px;
+    width: 8px;
+    border: none;
+}
+
+.grafica-ley
+{
+    margin-left: 4px;
+    font-family: 'Trade';
+    font-size: 12px !important ;
+    font-style: normal;
+}
+
+#total-fac 
+{
+    margin-top: 10px;
+    background: #4285f4;
+    color: #FFF;
+    text-shadow: none;
+}
+
+#mont-12
+{
+    background: #FFF;
+    color: #000;
+    padding: 7px;
+}
+
+#leyenda9
+{
+    margin-bottom: 10px;
+}
+
+#monto-facturado,#total-fac
+{
+    font-family: 'Trade';
+    font-size: 16px !important;
+    font-style: normal;
+}
+
+#nota
+{
+    font-family: 'Trade';
+    font-size: 10px;
+    font-style: normal;
+    margin-top: 5px;
+}

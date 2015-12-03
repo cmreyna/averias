@@ -1,0 +1,186 @@
+/* ------------------------- Panel --------------------------------- */
+#left-panel{ background: #FFF; box-shadow: none; border:solid 1px #FFF !important;}
+#left-panel .ui-panel-inner > .ui-listview { margin-bottom: 0; }
+#left-panel .ui-collapsible-set { margin: 0; }
+#left-panel .ui-panel-inner > .ui-collapsible > .ui-collapsible-content { padding-top: 10px; padding-bottom: 10px;  border-bottom: none; }
+
+#datos-usuario
+{
+    height: 100px !important;
+}
+.menu
+{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+#logo-head
+{
+    vertical-align: bottom;
+    /*border-radius: 40px;*/
+}
+
+#exit
+{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#img-user1
+{
+    border-radius: 50px !important;
+    padding: 0 !important;
+    margin-left: 80px;
+    height: 80px;
+    width: 80px;
+}
+
+#nom-user
+{
+    vertical-align: bottom;
+    margin-top: 60px;
+    margin-left: -80px;
+}
+
+
+#text-menu
+{
+    margin-left: -50px;
+    margin-top: 5px;
+
+}
+
+.lista-menu .ui-icon, #lista-menu2 .ui-icon
+{
+    margin-top: -22px !important;
+}
+
+#lista2
+{
+    margin-top: 0px !important;
+}
+
+#dato-menu1 .ui-icon, #dato-menu2 .ui-icon, #dato-menu3 .ui-icon, #dato-menu4 .ui-icon, #dato-menu5 .ui-icon, #dato-menu6 .ui-icon, #dato-menu7 .ui-icon, #dato-menu8 .ui-icon, #dato-menu9 .ui-icon, #dato-menu10 .ui-icon, #dato-menu11 .ui-icon
+{
+    margin-top: -22px !important;
+}
+
+
+#lista-menu2
+{
+    margin: 0px;
+}
+
+.lista-menu img
+{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+#dato-menu4, #dato-menu8
+{
+    border-bottom: 1px solid #296fb7 !important;
+    width: 250px !important;
+}
+
+#dato-menu3,#dato-menu2,#dato-menu1, #dato-menu5, #dato-menu6, #dato-menu7, #dato-menu8, #dato-menu9, #dato-menu10, #dato-menu11
+{
+    width: 250px !important;
+}
+
+#datos-usuario, #dato-menu, #dato-menu1, #dato-menu2,#dato-menu3,#dato-menu4,#dato-menu5,#dato-menu6, #dato-menu7, #lista-menu2,#dato-menu8,#dato-menu10,#dato-menu11,#dato-menu9
+{
+    background: #FFF;
+    border: 0px;
+    color: #727272 !important;
+    font-family: 'Trade';
+    text-transform: uppercase;
+}
+
+#dato-menu1, #dato-menu2,#dato-menu3,#dato-menu4,#dato-menu5,#dato-menu6, #dato-menu7, #lista-menu2,#dato-menu8,#dato-menu10,#dato-menu11, #dato-menu9
+{
+    height: 50px !important;
+}
+#text-menu:hover
+{
+    color: #296fb7 !important;
+}
+
+#dato-menu1:hover, #dato-menu2:hover, #dato-menu3:hover, #dato-menu4:hover, #dato-menu5:hover, #dato-menu6:hover, #dato-menu7:hover, #lista-menu2:hover,#dato-menu8:hover,#dato-menu9:hover, #dato-menu10:hover,#dato-menu11:hover
+{
+    background: #F0F0F0 !important;
+}
+
+#dato-menu
+{
+   border-top: solid 1px #296fb7 !important;
+    border-bottom: solid 1px #296fb7 !important;
+    border-top-width: 1px !important;
+    width: 220px !important;
+    text-transform: uppercase;
+}
+
+
+#dato-menu img
+{
+    margin-top: 2px;
+    margin-left: 8px;
+}
+#dato-menu  h3
+{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+#dato-menu2 a h3, #dato-menu1 a h3, #dato-menu4 a h3, #dato-menu5 a h3, #dato-menu6 a h3, #dato-menu3 a h3, #dato-menu7 a h3, #lista-menu2 a h3, #dato-menu8 a h3, #dato-menu9 a h3, #dato-menu10 a h3, #dato-menu11 a h3
+{
+    color: #727272 !important;
+}
+
+#dato-menu1 a img, #dato-menu2 a img, #dato-menu3 a img, #dato-menu4 a img, #dato-menu5 a img, #dato-menu6 a img,#dato-menu7 a img, #dato-menu8 a img, #dato-menu9 a img, #dato-menu10 a img, #dato-menu11 a img
+{
+    margin-top: 10px !important;
+    margin-left: 6px !important;
+}
+
+.ui-btn-inner
+{
+    border-top: 1px solid #FFF !important;
+    border-color: rgba(255,255,255,.0) !important;
+}
+
+#text-submenu a
+{
+    background: #FFF;
+    height: 50px;
+    margin-left: -6px;
+}
+
+#text-submenu .ui-btn-up-d
+{
+    border: none;
+}
+
+#text-submenu .ui-btn-text
+{
+    font-family: 'Trade';
+    color: #727272 !important;
+    text-transform: uppercase;
+}
+
+#lista-menu2 img
+{
+    margin-top: 10px !important;
+    margin-left: 30px !important;
+}
+
+#lista-menu2 h3
+{
+    margin-left: -25px;
+}
+
+#lista-menu2
+{
+    background: #FAFAFA;
+}
